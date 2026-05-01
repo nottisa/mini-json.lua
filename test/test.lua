@@ -1,5 +1,5 @@
-
-local json = loadfile("../json.lua")()
+package.path = package.path .. ";../?.lua"
+local json = require("json")
 
 
 local fmt = string.format
