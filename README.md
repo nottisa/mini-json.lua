@@ -1,6 +1,10 @@
 # ![json.lua](https://cloud.githubusercontent.com/assets/3920290/9281532/99e5e0cc-42bd-11e5-8fce-eaff2f7fc681.png)
-A lightweight JSON library for Lua
+A tinier, lightweight JSON library for Lua
 
+## Intro
+This is a fork of json.lua. No changes were made to this documentation, so please take the benchmarks with a grain of salt. The purpose of this is to split decoding and encoding into separate files for a smaller size at run time. This doesn't really matter if you're using encode and decode, because the total size of the combined of both files is higher than the one. This project is for you if you just need a lightweight decode or encode, but not both. If you need both, you really should go to the upstream repository as this was something I am not necessarily going to push changes to quickly, and it helps the original author. Go give them a star! :) 
+
+Also, if you read this far, thank you so much!
 
 ## Features
 * Implemented in pure Lua: works with 5.1, 5.2, 5.3 and JIT
